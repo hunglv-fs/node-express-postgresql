@@ -1,0 +1,8 @@
+{
+    "rules": {
+      "indent": ["error", 4],
+      "quotes": ["error", "double"],
+      "no-console": "no"
+    }
+  }
+  

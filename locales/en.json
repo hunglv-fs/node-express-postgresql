@@ -1,0 +1,20 @@
+{
+    "validation": {
+        "string": {
+            "base": "The value must be a string.",
+            "empty": "The field cannot be empty.",
+            "min": "Must be at least {#limit} characters.",
+            "max": "Cannot exceed {#limit} characters."
+        },
+        "number": {
+            "base": "The value must be a number.",
+            "positive": "The value must be greater than 0.",
+            "min": "The value must be at least {#limit}.",
+            "max": "The value cannot exceed {#limit}."
+        },
+        "any": {
+            "required": "This field is required.",
+            "invalid": "Invalid value."
+        }
+    }
+}

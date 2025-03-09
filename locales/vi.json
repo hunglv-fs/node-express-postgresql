@@ -1,0 +1,20 @@
+{
+    "validation": {
+        "string": {
+            "base": "Giá trị phải là chuỗi.",
+            "empty": "Không được để trống.",
+            "min": "Phải có ít nhất {#limit} ký tự.",
+            "max": "Không được quá {#limit} ký tự."
+        },
+        "number": {
+            "base": "Giá trị phải là số.",
+            "positive": "Giá trị phải lớn hơn 0.",
+            "min": "Giá trị phải ít nhất {#limit}.",
+            "max": "Giá trị không được quá {#limit}."
+        },
+        "any": {
+            "required": "Trường này là bắt buộc.",
+            "invalid": "Giá trị không hợp lệ."
+        }
+    }
+}
