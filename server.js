@@ -5,6 +5,8 @@ require('dotenv').config();
 const productRoutes = require('./routes/productRoutes');
 const logger = require('./utils/logger');
 const { requestLogger, errorLogger } = require('./middleware/loggerMiddleware');
+const { cache } = require('./middleware/cacheMiddleware');
+require('./config/redis');
 
 const app = express();
 

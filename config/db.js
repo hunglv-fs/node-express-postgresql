@@ -10,7 +10,7 @@ const client = new Client({
 });
 
 client.connect()
-  .then(() => logger.info('✅ PostgreSQL :: connected success!'))
-  .catch(err => logger.error('❌ PostgreSQL:: connect error', err));
+  .then(() => logger.info('✅ PostgreSQL :: connected'))
+  .catch(err => logger.error('❌ PostgreSQL:: connection error', err));
 
 module.exports = client;
